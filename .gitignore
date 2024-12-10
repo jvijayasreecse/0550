@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Registration form</title>
+</head>
+<body bgcolor="lightskyblue">
+<form id="Registration">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br><br>
+<label>DOB</label>
+<input type="dob" id="birthday" name="birthday"><br><br>
+<label>Gender:</label><br><br>
+<input type="radio" name="male">Male <br>
+<input type="radio" name="female"> Female <br>
+<input type="radio" name="other" >Other <br>
+<label>Email:</label>
+<input type="email" id="email" name="email"><br><br>
+</form>
+password:
+<input type="pass" name="password"><br><br>
+Re-type:
+<input type="pass" name="Re-passeord"><br><br>
+<input type="button" value="submit">
+</body>
+</html>
